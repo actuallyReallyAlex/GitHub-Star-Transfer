@@ -29,6 +29,7 @@
   "homepage": "https://github.com/alexlee-dev/Github-Star-Transfer#readme",
   "dependencies": {
     "chalk": "^2.4.1",
+    "clear": "^0.1.0",
     "configstore": "^4.0.0",
     "figlet": "^1.2.0",
     "gradient-string": "^1.1.0",
