@@ -7,7 +7,7 @@
 
 This app was built to help you "transfer" all starred repositories from one GitHub account to another. There are other apps that exist that export a link, but this one will use Puppeteer to star each repo automatically with a headless browser.
 
-![](https://github.com/alexlee-dev/Github-Star-Transfer/raw/master/assets/first-time.svg)
+![](https://rawgit.com/alexlee-dev/Github-Star-Transfer/master/assets/first-time.svg)
 
 ## Installation
 
