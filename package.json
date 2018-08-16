@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/alexlee-dev/Github-Star-Transfer#readme",
   "dependencies": {
+    "boxen": "^1.3.0",
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
     "configstore": "^4.0.0",
