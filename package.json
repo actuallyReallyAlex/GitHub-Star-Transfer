@@ -7,7 +7,8 @@
     "star-transfer": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "document": "documentation build lib/helpers.js index.js -f html -o docs --sort-order alpha --config documentation.yml -g"
   },
   "repository": {
     "type": "git",
