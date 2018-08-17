@@ -2,6 +2,7 @@
 
 // NPM Dependencies
 const Configstore = require('configstore');
+// const PrettyError = require('pretty-error'); // ! Remember to install when you have WiFi
 
 // Custom Dependencies
 const helpers = require('./lib/helpers');
@@ -9,15 +10,12 @@ const helpers = require('./lib/helpers');
 // Create a Configuration File with Configstore
 const conf = new Configstore('github-star-transfer');
 
-// Initially set firstTime to true
-conf.set('firstTime', true);
-
 const run = () => {
 	// Print Title Screen
 	helpers.printTitle('GitHub Star Transfer');
 
 	// Check if this is first time running program
-	if (conf.get('firstTime') === true) {
+	if (conf.get('firstTime') !== false) {
 		// Walk user through set-up
 		console.log(
 			'It looks like this is your first time using GitHub Star Transfer.'
@@ -36,7 +34,7 @@ const run = () => {
 					name: 'setupStart',
 					message: 'Are you ready to proceed?'
 				},
-				'setupStart'
+				'setup'
 			);
 		});
 	} else {
