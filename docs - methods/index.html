@@ -1,0 +1,680 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>github-star-transfer 0.0.7 | Documentation</title>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <link href='assets/bass.css' type='text/css' rel='stylesheet' />
+  <link href='assets/style.css' type='text/css' rel='stylesheet' />
+  <link href='assets/github.css' type='text/css' rel='stylesheet' />
+  <link href='assets/split.css' type='text/css' rel='stylesheet' />
+  <meta name='description' content='A simple CLI app written with Puppeteer and NodeJS to manually re-star repositories in GitHub from one account to another.'>
+</head>
+<body class='documentation m0'>
+    <div class='flex'>
+      <div id='split-left' class='overflow-auto fs0 height-viewport-100'>
+        <div class='py1 px2'>
+          <h3 class='mb0 no-anchor'>github-star-transfer</h3>
+          <div class='mb1'><code>0.0.7</code></div>
+          <input
+            placeholder='Filter'
+            id='filter-input'
+            class='col12 block input'
+            type='text' />
+          <div id='toc'>
+            <ul class='list-reset h5 py1-ul'>
+              
+                
+                <li><a
+                  href='#createmenu'
+                  class="">
+                  createMenu
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#editusercredentialsquestions1'
+                  class="">
+                  editUserCredentialsQuestions1
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#exitmenuquestions'
+                  class="">
+                  exitMenuQuestions
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#mainmenuquestions'
+                  class="">
+                  mainMenuQuestions
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#printtitle'
+                  class="">
+                  printTitle
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#separator'
+                  class="">
+                  separator
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#settingsmenuquestions'
+                  class="">
+                  settingsMenuQuestions
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#setupmenuquestions1'
+                  class="">
+                  setupMenuQuestions1
+                  
+                </a>
+                
+                </li>
+              
+                
+                <li><a
+                  href='#timeout'
+                  class="">
+                  timeout
+                  
+                </a>
+                
+                </li>
+              
+            </ul>
+          </div>
+          <div class='mt1 h6 quiet'>
+            <a href='http://documentation.js.org/reading-documentation.html'>Need help reading this?</a>
+          </div>
+        </div>
+      </div>
+      <div id='split-right' class='relative overflow-auto height-viewport-100'>
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='createmenu'>
+      createMenu
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L141-L355'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Creates a menu to display to the user.</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>createMenu(questions: (<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>), menuType: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>, previousMenu: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>)</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>questions</span> <code class='quiet'>((<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a> | <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a>))</code>
+	    An array of questions to ask the user, containing a Question Object, or the Question Object directly.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>menuType</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>
+            = <code>&#39;main&#39;</code>)</code>
+	    A string to indicate which menu should be created. Default is 'main' for Main Menu.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>previousMenu</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>
+            = <code>&#39;main&#39;</code>)</code>
+	    A string to indicate the previous menu the user was on. Mainly used with the 'Exit' menu.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='editusercredentialsquestions1'>
+      editUserCredentialsQuestions1
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L107-L117'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Edit User Credentials Question Object</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>editUserCredentialsQuestions1</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='exitmenuquestions'>
+      exitMenuQuestions
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L43-L48'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Exit Menu Questions Object</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>exitMenuQuestions</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='mainmenuquestions'>
+      mainMenuQuestions
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L16-L21'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Main Menu Questions Object.</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>mainMenuQuestions</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='printtitle'>
+      printTitle
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L362-L371'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Displays a title screen in a pastel color.</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>printTitle(title: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>)</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>title</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">String</a>)</code>
+	    Text to display in title.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='separator'>
+      separator
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L376-L378'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Generates a separator to display in the menu with Inquirer.</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>separator()</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='settingsmenuquestions'>
+      settingsMenuQuestions
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L26-L38'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Settings Menu Questions Object</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>settingsMenuQuestions</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='setupmenuquestions1'>
+      setupMenuQuestions1
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L53-L102'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>1st Set of Setup Menu Questions</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>setupMenuQuestions1</div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+          
+          <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    <h3 class='fl m0' id='timeout'>
+      timeout
+    </h3>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/alexlee-dev/Github-Star-Transfer/blob/4e8cb6b0d41314f0979768fa9b65455717f38117/lib/helpers.js#L125-L133'>
+      <span>lib/helpers.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>Stops the program from continuing for a set duration of milliseconds.</p>
+
+ 
+  
+    <div class='pre p1 fill-light mt0'>timeout(ms: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>, func: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function">Function</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></div>
+   
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>ms</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">Number</a>)</code>
+	    Number of milliseconds to wait.
+
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>func</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function">Function</a>
+            = <code>&#39;&#39;</code>)</code>
+	    (Optional). Function to call once number of milliseconds to wait has passed.
+
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></code>:
+        
+
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+        
+      </div>
+    </div>
+  <script src='assets/anchor.js'></script>
+  <script src='assets/split.js'></script>
+  <script src='assets/site.js'></script>
+</body>
+</html>
