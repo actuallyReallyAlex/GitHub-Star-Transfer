@@ -38,6 +38,7 @@
     "gradient-string": "^1.1.0",
     "inquirer": "^6.1.0",
     "ora": "^3.0.0",
+    "pretty-error": "^2.1.1",
     "puppeteer": "^1.7.0"
   }
 }
