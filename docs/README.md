@@ -2,7 +2,7 @@
 > A simple CLI app written with Puppeteer and NodeJS to automatically re-star repositories in GitHub from one account to another.
 
 [![NPM Version][npm-image]][npm-url]
-[![NPM total downloads][npm-downloads]][npm-url]
+[![NPM Total Downloads][npm-downloads]][npm-url]
 <!-- [![Build Status][travis-image]][travis-url] -->
 <!-- [![Downloads Stats][npm-downloads]][npm-url] -->
 
@@ -64,7 +64,7 @@ Distributed under the GPL license. See ``LICENSE`` for more information.
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/github-star-transfer.svg
-[npm-downloads]: https://img.shields.io/npm/dt/github-star-transfer.svg)
+[npm-downloads]: https://img.shields.io/npm/dt/github-star-transfer.svg
 [npm-url]: https://www.npmjs.com/package/github-star-transfer
 <!-- [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square -->
 <!-- [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square -->
