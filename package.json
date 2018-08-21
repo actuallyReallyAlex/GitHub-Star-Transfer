@@ -1,6 +1,6 @@
 {
   "name": "github-star-transfer",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A simple CLI app written with Puppeteer and NodeJS to manually re-star repositories in GitHub from one account to another.",
   "main": "index.js",
   "bin": {
