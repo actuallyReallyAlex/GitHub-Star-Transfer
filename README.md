@@ -64,7 +64,7 @@ Distributed under the GPL license. See ``LICENSE`` for more information.
 
 You might also be interested in these projects:
 
-* [starred](creating your own Awesome List by GitHub stars! ): creating your own Awesome List by GitHub stars! . | [homepage](https://github.com/maguowei/starred "creating your own Awesome List by GitHub stars! ")
+* [starred](creating your own Awesome List by GitHub stars! ): creating your own Awesome List by GitHub stars! | [homepage](https://github.com/maguowei/starred "creating your own Awesome List by GitHub stars!")
 * [star-history](https://github.com/timqian/star-history): The missing star history graph of github repos. | [homepage](https://github.com/timqian/star-history "The missing star history graph of github repos.")
 * [github-stars-tagger](https://github.com/artisologic/github-stars-tagger): A Google Chrome extension that lets you add tags to your starred repositories directly on GitHub. | [homepage](https://chrome.google.com/webstore/detail/github-stars-tagger/aaihhjepepgajmehjdmfkofegfddcabc "A Google Chrome extension that lets you add tags to your starred repositories directly on GitHub.")
 * [star-me](https://github.com/fossasia/star-me): Star FOSSASIA Repositories on Github and Support the Community. | [homepage](https://github.com/fossasia/star-me "Star FOSSASIA Repositories on Github and Support the Community.")
