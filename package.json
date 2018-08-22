@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexlee-dev/Github-Star-Transfer.git"
+    "url": "git+https://github.com/alexlee-dev/GitHub-Star-Transfer.git"
   },
   "keywords": [
     "cli",
@@ -26,7 +26,7 @@
   "author": "Alex Lee",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/alexlee-dev/Github-Star-Transfer/issues"
+    "url": "https://github.com/alexlee-dev/GitHub-Star-Transfer/issues"
   },
   "homepage": "https://githubstartransfer.download/",
   "dependencies": {
@@ -37,8 +37,10 @@
     "figlet": "^1.2.0",
     "gradient-string": "^1.1.0",
     "inquirer": "^6.1.0",
+    "is-online": "^7.0.0",
     "ora": "^3.0.0",
     "pretty-error": "^2.1.1",
-    "puppeteer": "^1.7.0"
+    "puppeteer": "^1.7.0",
+    "write-data": "^1.0.2"
   }
 }
