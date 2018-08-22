@@ -11,7 +11,7 @@ require('pretty-error').start();
 const Configstore = require('configstore');
 
 // Custom Dependencies
-const helpers = require('./lib/helpers');
+const { timeout, createMenu, printTitle, separator } = require('./lib/helpers');
 
 // Create a Configuration File with Configstore
 const conf = new Configstore('github-star-transfer');
@@ -19,12 +19,13 @@ const conf = new Configstore('github-star-transfer');
 const run = () => {
 	// Determine if User is connected to WiFi
 	const connectionSpinner = ora('Testing connection ...').start();
+
 	isOnline().then(online => {
 		// If user is connected to WiFi
 		if (online === true) {
 			connectionSpinner.succeed('Connected to WiFi.');
 			// Print Title Screen
-			helpers.printTitle('GitHub Star Transfer');
+			printTitle('GitHub Star Transfer');
 
 			// Check if this is first time running program
 			if (conf.get('firstTime') !== false) {
@@ -35,12 +36,12 @@ const run = () => {
 				// TODO: Timeouts are running from the start of `run` being called.
 				// * Figure out how to run timeout stacked
 				// * i.e. the 2nd timeout doesn't have to be 4000, it can be 2000 and run after the 1st.
-				helpers.timeout(2000, () => {
+				timeout(2000, () => {
 					console.log("Let's walk through the setup process together.");
 				});
-				helpers.timeout(4000, () => {
+				timeout(4000, () => {
 					// Ask if the user is ready to proceed
-					helpers.createMenu(
+					createMenu(
 						{
 							type: 'confirm',
 							name: 'setupStart',
@@ -51,11 +52,11 @@ const run = () => {
 				});
 			} else {
 				// Create Main Menu
-				helpers.createMenu({
+				createMenu({
 					type: 'list',
 					name: 'mainMenu',
 					message: 'What would you like to do?',
-					choices: ['Copy Stars', helpers.separator(), 'Settings', 'Exit']
+					choices: ['Copy Stars', separator(), 'Settings', 'Exit']
 				});
 			}
 		} else {
@@ -64,7 +65,7 @@ const run = () => {
 			connectionSpinner.fail('Not connected to WiFi.');
 
 			// Print Title Screen
-			helpers.printTitle('GitHub Star Transfer');
+			printTitle('GitHub Star Transfer');
 
 			// Check if this is first time running program
 			if (conf.get('firstTime') !== false) {
@@ -75,12 +76,12 @@ const run = () => {
 				// TODO: Timeouts are running from the start of `run` being called.
 				// * Figure out how to run timeout stacked
 				// * i.e. the 2nd timeout doesn't have to be 4000, it can be 2000 and run after the 1st.
-				helpers.timeout(2000, () => {
+				timeout(2000, () => {
 					console.log("Let's walk through the setup process together.");
 				});
-				helpers.timeout(4000, () => {
+				timeout(4000, () => {
 					// Ask if the user is ready to proceed
-					helpers.createMenu(
+					createMenu(
 						{
 							type: 'confirm',
 							name: 'setupStart',
@@ -91,7 +92,7 @@ const run = () => {
 				});
 			} else {
 				// Create Main Menu
-				helpers.createMenu({
+				createMenu({
 					type: 'list',
 					name: 'mainMenu',
 					message: 'What would you like to do?',
@@ -100,7 +101,7 @@ const run = () => {
 							name: 'Copy Stars',
 							disabled: 'Unavailable while not connected to WiFi.'
 						},
-						helpers.separator(),
+						separator(),
 						'Settings',
 						'Exit'
 					]
