@@ -1,0 +1,305 @@
+{
+  "numberOfStarredRepos": 58,
+  "starredRepos": [
+    {
+      "author": "elsewhencode",
+      "title": "project-guidelines",
+      "description": "A set of best practices for JavaScript projects",
+      "language": "JavaScript",
+      "starGazers": 17,
+      "forks": 1,
+      "lastUpdated": "Aug 21, 2018, 4:54 AM PDT",
+      "url": "https://github.com/elsewhencode/project-guidelines/"
+    },
+    {
+      "author": "standard",
+      "title": "standard",
+      "description": "🌟 JavaScript Style Guide, with linter & automatic code fixer",
+      "language": "JavaScript",
+      "starGazers": 18,
+      "forks": 1,
+      "lastUpdated": "Aug 17, 2018, 2:35 PM PDT",
+      "url": "https://github.com/standard/standard/"
+    },
+    {
+      "author": "rdegges",
+      "title": "okta-express-login-portal",
+      "description": "A simple Node.js websites that showcases how to handle user login and registration.",
+      "language": "JavaScript",
+      "starGazers": 5,
+      "forks": 6,
+      "lastUpdated": "Jun 28, 2018, 11:04 AM PDT",
+      "url": "https://github.com/rdegges/okta-express-login-portal/"
+    },
+    {
+      "author": "faressoft",
+      "title": "terminalizer",
+      "description": "🦄 Record your terminal and generate animated gif images",
+      "language": "JavaScript",
+      "starGazers": 5,
+      "forks": 140,
+      "lastUpdated": "Aug 22, 2018, 7:22 AM PDT",
+      "url": "https://github.com/faressoft/terminalizer/"
+    },
+    {
+      "author": "creativetimofficial",
+      "title": "argon-design-system",
+      "description": "Argon - Design System for Bootstrap 4 by Creative Tim",
+      "language": "CSS",
+      "starGazers": 263,
+      "forks": 22,
+      "lastUpdated": "Aug 21, 2018, 5:02 AM PDT",
+      "url": "https://github.com/creativetimofficial/argon-design-system/"
+    },
+    {
+      "author": "documentationjs",
+      "title": "documentation",
+      "description": "📖 documentation for modern JavaScript",
+      "language": "JavaScript",
+      "starGazers": 3,
+      "forks": 314,
+      "lastUpdated": "Aug 19, 2018, 6:43 PM PDT",
+      "url": "https://github.com/documentationjs/documentation/"
+    },
+    {
+      "author": "JPeer264",
+      "title": "node-semantic-git-commit-cli",
+      "description": "A CLI for semantic git commits",
+      "language": "JavaScript",
+      "starGazers": 53,
+      "forks": 5,
+      "lastUpdated": "Jun 19, 2018, 9:38 AM PDT",
+      "url": "https://github.com/JPeer264/node-semantic-git-commit-cli/"
+    },
+    {
+      "author": "Modernizr",
+      "title": "Modernizr",
+      "description": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.",
+      "language": "JavaScript",
+      "starGazers": 22,
+      "forks": 3,
+      "lastUpdated": "Aug 15, 2018, 12:52 PM PDT",
+      "url": "https://github.com/Modernizr/Modernizr/"
+    },
+    {
+      "author": "lord",
+      "title": "slate",
+      "description": "Beautiful static documentation for your API",
+      "language": "JavaScript",
+      "starGazers": 24,
+      "forks": 14,
+      "lastUpdated": "Aug 21, 2018, 5:35 AM PDT",
+      "url": "https://github.com/lord/slate/"
+    },
+    {
+      "author": "lodash",
+      "title": "lodash",
+      "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+      "language": "JavaScript",
+      "starGazers": 34,
+      "forks": 3,
+      "lastUpdated": "Aug 9, 2018, 12:42 AM PDT",
+      "url": "https://github.com/lodash/lodash/"
+    },
+    {
+      "author": "gpoitch",
+      "title": "term-sheets",
+      "description": "Create animated terminal presentations. Export as SVG, animated GIF, or HTML+CSS",
+      "language": "JavaScript",
+      "starGazers": 188,
+      "forks": 11,
+      "lastUpdated": "Jul 30, 2018, 8:01 PM PDT",
+      "url": "https://github.com/gpoitch/term-sheets/"
+    },
+    {
+      "author": "robinmoisson",
+      "title": "staticrypt",
+      "description": "Password protect a static HTML page",
+      "language": "JavaScript",
+      "starGazers": 1,
+      "forks": 113,
+      "lastUpdated": "Jun 22, 2018, 8:38 AM PDT",
+      "url": "https://github.com/robinmoisson/staticrypt/"
+    },
+    {
+      "author": "krisk",
+      "title": "Fuse",
+      "description": "Lightweight fuzzy-search, in JavaScript",
+      "language": "JavaScript",
+      "starGazers": 6,
+      "forks": 369,
+      "lastUpdated": "Aug 14, 2018, 5:37 PM PDT",
+      "url": "https://github.com/krisk/Fuse/"
+    },
+    {
+      "author": "Agezao",
+      "title": "confetti-js",
+      "description": "Easily Generate random confetti for your above-the-fold content",
+      "language": "JavaScript",
+      "starGazers": 63,
+      "forks": 6,
+      "lastUpdated": "Aug 9, 2018, 1:01 PM PDT",
+      "url": "https://github.com/Agezao/confetti-js/"
+    },
+    {
+      "author": "joereynolds",
+      "title": "mort",
+      "description": "Dead CSS detection",
+      "language": "TypeScript",
+      "starGazers": 72,
+      "forks": 7,
+      "lastUpdated": "Jun 6, 2018, 12:29 AM PDT",
+      "url": "https://github.com/joereynolds/mort/"
+    },
+    {
+      "author": "davidmerfield",
+      "title": "randomColor",
+      "description": "A tiny script for generating attractive colors",
+      "language": "JavaScript",
+      "starGazers": 4,
+      "forks": 312,
+      "lastUpdated": "May 30, 2018, 8:03 AM PDT",
+      "url": "https://github.com/davidmerfield/randomColor/"
+    },
+    {
+      "author": "MrRio",
+      "title": "jsPDF",
+      "description": "Client-side JavaScript PDF generation for everyone.",
+      "language": "JavaScript",
+      "starGazers": 11,
+      "forks": 2,
+      "lastUpdated": "Aug 14, 2018, 5:40 PM PDT",
+      "url": "https://github.com/MrRio/jsPDF/"
+    },
+    {
+      "author": "maban",
+      "title": "styleguides",
+      "description": "Documenting resources related to front-end style guides and pattern libraries",
+      "language": "HTML",
+      "starGazers": 690,
+      "forks": 205,
+      "lastUpdated": "Aug 20, 2018, 6:38 AM PDT",
+      "url": "https://github.com/maban/styleguides/"
+    },
+    {
+      "author": "inuitcss",
+      "title": "template",
+      "description": "A default template for inuitcss compatible Sass files",
+      "language": "CSS",
+      "starGazers": 26,
+      "forks": 3,
+      "lastUpdated": "Jul 12, 2016, 5:28 AM PDT",
+      "url": "https://github.com/inuitcss/template/"
+    },
+    {
+      "author": "stevemao",
+      "title": "github-issue-templates",
+      "description": "🔣 A collection of GitHub issue and pull request templates",
+      "language": "UNSPECIFIED",
+      "starGazers": 627,
+      "forks": 984,
+      "lastUpdated": "Aug 9, 2018, 5:19 PM PDT",
+      "url": "https://github.com/stevemao/github-issue-templates/"
+    },
+    {
+      "author": "Semantic-Org",
+      "title": "Semantic-UI",
+      "description": "Semantic is a UI component framework based around useful principles from natural language.",
+      "language": "JavaScript",
+      "starGazers": 42,
+      "forks": 4,
+      "lastUpdated": "Aug 20, 2018, 10:50 AM PDT",
+      "url": "https://github.com/Semantic-Org/Semantic-UI/"
+    },
+    {
+      "author": "jquery",
+      "title": "jquery",
+      "description": "jQuery JavaScript Library",
+      "language": "JavaScript",
+      "starGazers": 49,
+      "forks": 16,
+      "lastUpdated": "Aug 20, 2018, 9:13 PM PDT",
+      "url": "https://github.com/jquery/jquery/"
+    },
+    {
+      "author": "vuejs",
+      "title": "vue",
+      "description": "🖖 A progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "language": "JavaScript",
+      "starGazers": 111,
+      "forks": 15,
+      "lastUpdated": "Aug 22, 2018, 12:12 AM PDT",
+      "url": "https://github.com/vuejs/vue/"
+    },
+    {
+      "author": "hbin",
+      "title": "top-programming-fonts",
+      "description": "",
+      "language": "Shell",
+      "starGazers": 1,
+      "forks": 210,
+      "lastUpdated": "Aug 12, 2018, 1:01 PM PDT",
+      "url": "https://github.com/hbin/top-programming-fonts/"
+    },
+    {
+      "author": "briangonzalez",
+      "title": "jquery.adaptive-backgrounds.js",
+      "description": "🦎 A jQuery plugin for extracting the dominant color from images and applying the color to their parent.",
+      "language": "JavaScript",
+      "starGazers": 6,
+      "forks": 492,
+      "lastUpdated": "Nov 25, 2017, 8:54 AM PST",
+      "url": "https://github.com/briangonzalez/jquery.adaptive-backgrounds.js/"
+    },
+    {
+      "author": "cgoldsby",
+      "title": "LoginCritter",
+      "description": "An animated avatar that responds to text field interactions",
+      "language": "Swift",
+      "starGazers": 4,
+      "forks": 228,
+      "lastUpdated": "May 6, 2018, 6:29 AM PDT",
+      "url": "https://github.com/cgoldsby/LoginCritter/"
+    },
+    {
+      "author": "dwyl",
+      "title": "learn-to-send-email-via-google-script-html-no-server",
+      "description": "✉️ An Example of using an HTML form (e.g: \"Contact Us\" on a website) to send Email without a Backend Server (using a Google Script)",
+      "language": "HTML",
+      "starGazers": 1,
+      "forks": 381,
+      "lastUpdated": "Aug 19, 2018, 3:06 PM PDT",
+      "url": "https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server/"
+    },
+    {
+      "author": "jsoma",
+      "title": "tabletop",
+      "description": "Tabletop.js gives spreadsheets legs",
+      "language": "JavaScript",
+      "starGazers": 2,
+      "forks": 353,
+      "lastUpdated": "Apr 4, 2018, 9:53 AM PDT",
+      "url": "https://github.com/jsoma/tabletop/"
+    },
+    {
+      "author": "Pathgather",
+      "title": "please-wait",
+      "description": "A simple library to show your users a beautiful splash page while your application loads.",
+      "language": "CoffeeScript",
+      "starGazers": 1,
+      "forks": 144,
+      "lastUpdated": "Aug 20, 2016, 3:31 AM PDT",
+      "url": "https://github.com/Pathgather/please-wait/"
+    },
+    {
+      "author": "danielyxie",
+      "title": "bitburner",
+      "description": "Bitburner Game",
+      "language": "JavaScript",
+      "starGazers": 41,
+      "forks": 29,
+      "lastUpdated": "Aug 19, 2018, 10:26 PM PDT",
+      "url": "https://github.com/danielyxie/bitburner/"
+    }
+  ]
+}
