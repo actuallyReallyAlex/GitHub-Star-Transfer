@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](logo2.png)
+![logo](logo2.svg)
 
 # GitHub Star Transfer <small>0.0.11</small>
 
