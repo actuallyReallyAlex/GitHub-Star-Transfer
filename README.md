@@ -1,4 +1,5 @@
 # GitHub-Star-Transfer
+
 > A simple CLI app written with Puppeteer and NodeJS to automatically re-star repositories in GitHub from one account to another.
 
 [![NPM Version][npm-image]][npm-url]
@@ -6,7 +7,7 @@
 
 This app was built to help you "transfer" all starred repositories from one GitHub account to another. There are other apps that exist that export a link, but this one will use Puppeteer to star each repo automatically with a headless browser.
 
-![](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/assets/first-time.svg)
+![First time running the program.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/assets/first-time.svg)
 
 ## Installation
 
@@ -68,7 +69,6 @@ You might also be interested in these projects:
 * [star-history](https://github.com/timqian/star-history): The missing star history graph of github repos. | [homepage](https://github.com/timqian/star-history "The missing star history graph of github repos.")
 * [github-stars-tagger](https://github.com/artisologic/github-stars-tagger): A Google Chrome extension that lets you add tags to your starred repositories directly on GitHub. | [homepage](https://chrome.google.com/webstore/detail/github-stars-tagger/aaihhjepepgajmehjdmfkofegfddcabc "A Google Chrome extension that lets you add tags to your starred repositories directly on GitHub.")
 * [star-me](https://github.com/fossasia/star-me): Star FOSSASIA Repositories on Github and Support the Community. | [homepage](https://github.com/fossasia/star-me "Star FOSSASIA Repositories on Github and Support the Community.")
-
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/github-star-transfer.svg
