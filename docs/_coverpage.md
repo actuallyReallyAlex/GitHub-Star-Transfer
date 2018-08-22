@@ -10,5 +10,5 @@
 * No statically built html files
 * Multiple themes -->
 
-[GitHub](https://github.com/alexlee-dev/Github-Star-Transfer)
+[GitHub](https://github.com/alexlee-dev/GitHub-Star-Transfer)
 [Get Started](#github-star-transfer)
