@@ -1,4 +1,4 @@
-# Github-Star-Transfer
+# GitHub-Star-Transfer
 > A simple CLI app written with Puppeteer and NodeJS to automatically re-star repositories in GitHub from one account to another.
 
 [![NPM Version][npm-image]][npm-url]
