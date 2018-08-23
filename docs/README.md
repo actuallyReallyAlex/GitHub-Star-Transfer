@@ -7,14 +7,12 @@
 
 This app was built to help you "transfer" all starred repositories from one GitHub account to another. There are other apps that exist that export a link, but this one will use Puppeteer to star each repo automatically with a headless browser.
 
-![First time running the program.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/assets/first-time.svg)
-
 ## Installation
 
 Install from NPM
 
 ```sh
-npm install github-star-transfer --save
+npm install -g github-star-transfer
 ```
 
 Link to bin
@@ -23,11 +21,63 @@ Link to bin
 npm link
 ```
 
-## Usage example
+## Usage Examples
+
+### Initial Setup
 
 ```sh
 star-transfer
 ```
+
+![First time running the program.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/first-time.svg)
+
+### Startup
+
+```sh
+star-transfer
+```
+![Startup of GitHub Star Transfer in terminal.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/startup.svg)
+
+### Editing Credentials
+
+```sh
+star-transfer
+❯ Settings
+❯ Edit User Credentials
+❯ Account 1 - (Transfer FROM) / ❯ Account 2 - (Transfer TO)
+```
+
+Follow the prompts to enter your username and password.
+
+![Editing credentials.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/edit-credentials.svg)
+
+### Viewing Credentials
+
+```sh
+star-transfer
+❯ View User Accounts
+```
+
+![Viewing credentials.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/view-credentials.svg)
+
+### Exiting Program
+
+```sh
+star-transfer
+❯ Exit
+❯ Yes
+```
+
+![Exiting program.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/exit.svg)
+
+
+## Uninstall
+
+```sh
+npm unlink
+npm uninstall -g github-star-transfer
+```
+
 
 <!-- _For more examples and usage, please refer to the [Wiki][wiki]._ -->
 
