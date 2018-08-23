@@ -2,7 +2,7 @@
 
 ![logo](logo2.svg)
 
-# GitHub Star Transfer <small>0.0.11</small>
+## GitHub Star Transfer <small>0.0.12</small>
 
 > A simple CLI app written with Puppeteer and NodeJS to automatically re-star repositories in GitHub from one account to another.
 
