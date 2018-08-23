@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo \"No build script specified.\"",
+    "install": "echo Thanks for installing GitHub Star Transfer!",
     "document": "documentation build lib/helpers.js index.js -f html -o docs --sort-order alpha --config documentation.yml -g",
     "delete-config": "trash /Users/alex/.config/configstore/github-star-transfer.json",
     "update-changelog": "github_changelog_generator -u alexlee-dev -p GitHub-Star-Transfer",
