@@ -23,6 +23,8 @@ npm install -g github-star-transfer
 star-transfer
 ```
 
+Follow the prompts to set up your user credentials.
+
 ![First time running the program.](https://rawgit.com/alexlee-dev/GitHub-Star-Transfer/master/gifs/first-time.svg)
 
 ### Startup
