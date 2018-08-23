@@ -15,12 +15,6 @@ Install from NPM
 npm install -g github-star-transfer
 ```
 
-Link to bin
-
-```sh
-npm link
-```
-
 ## Usage Examples
 
 ### Initial Setup
