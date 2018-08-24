@@ -45,6 +45,7 @@
     "ora": "^3.0.0",
     "pretty-error": "^2.1.1",
     "puppeteer": "^1.7.0",
+    "request": "^2.88.0",
     "write-data": "^1.0.2"
   },
   "devDependencies": {
