@@ -1,3 +1,12 @@
+# Project No Longer Maintained
+"GitHub Star Transfer" will no longer be maintained. Instead, some of it's functionality will be brought along in development of a new project that aims to work with GitHub in a similar way. This documentation will live on the GitHub Pages associated with the project's repository, but the repository will be archived and read-only moving forward.
+
+Stay tuned for the release of the bigger and better project. Thanks!
+- Alex.
+
+
+
+
 # GitHub-Star-Transfer
 
 > A simple CLI app written with Puppeteer and NodeJS to automatically re-star repositories in GitHub from one account to another.
@@ -87,6 +96,8 @@ npm test
 ``` -->
 
 ## Release History
+
+* _No longer being maintained_
 
 * 0.0.1 - Current
     * Work in progress
