@@ -12,7 +12,8 @@ const Configstore = require('configstore');
 
 // Custom Dependencies
 const { getStarredRepos } = require('./lib/requests');
-const { printTitle, timeout, separator, setupStartQuestions, mainMenuQuestions, createMenu } = require('./lib/helpers');
+const { printTitle, timeout, separator, createMenu, mainMenuQuestions } = require('./lib/helpers');
+const { setupStartQuestions } = require('./lib/menus');
 
 // Create a Configuration File with Configstore
 const conf = new Configstore('github-star-transfer');
