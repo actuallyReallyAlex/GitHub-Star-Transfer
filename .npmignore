@@ -8,3 +8,6 @@ gifs
 .jshintrc
 .prettierrc
 favicon.ico
+
+# Config
+.env
