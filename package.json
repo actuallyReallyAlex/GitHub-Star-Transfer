@@ -7,9 +7,6 @@
     "star-transfer": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script specified.\"",
-    "install": "npm link && echo \"Thanks for installing GitHub Star Transfer!\" && exit 1",
     "document": "documentation build lib/helpers.js index.js -f html -o docs --sort-order alpha --config documentation.yml -g",
     "delete-config": "trash /Users/alex/.config/configstore/github-star-transfer.json",
     "update-changelog": "github_changelog_generator -u alexlee-dev -p GitHub-Star-Transfer",
@@ -38,6 +35,7 @@
     "chalk": "^2.4.1",
     "clear": "^0.1.0",
     "configstore": "^4.0.0",
+    "dotenv": "^6.0.0",
     "figlet": "^1.2.0",
     "gradient-string": "^1.1.0",
     "inquirer": "^6.1.0",
