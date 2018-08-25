@@ -1,5 +1,8 @@
 # Change Log
 
+## [v0.1.1](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.1.1) (2018-08-25)
+[Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.1.0...v0.1.1)
+
 ## [v0.1.0](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.1.0) (2018-08-25)
 [Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.15...v0.1.0)
 
@@ -17,7 +20,7 @@
 [Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.12...v0.0.13)
 
 ## [v0.0.12](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.0.12) (2018-08-23)
-[Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.11...v0.0.12)
+[Full Changelog](httpsaa://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.11...v0.0.12)
 
 ## [v0.0.11](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.0.11) (2018-08-22)
 [Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.10...v0.0.11)
