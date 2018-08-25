@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.1.0](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.1.0) (2018-08-25)
+[Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.15...v0.1.0)
+
+**Implemented enhancements:**
+
+- Switch to GitHub api [\#5](https://github.com/alexlee-dev/GitHub-Star-Transfer/pull/5) ([alexlee-dev](https://github.com/alexlee-dev))
+
 ## [v0.0.15](https://github.com/alexlee-dev/GitHub-Star-Transfer/tree/v0.0.15) (2018-08-23)
 [Full Changelog](https://github.com/alexlee-dev/GitHub-Star-Transfer/compare/v0.0.14...v0.0.15)
 

@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/alexlee-dev/GitHub-Star-Transfer/issues"
   },
-  "homepage": "https://githubstartransfer.download/",
+  "homepage": "https://github.com/alexlee-dev/GitHub-Star-Transfer/",
   "dependencies": {
     "boxen": "^1.3.0",
     "chalk": "^2.4.1",
