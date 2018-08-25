@@ -39,6 +39,8 @@ const run = () => {
 				);
 				timeout(2000, () => {
 					console.log("Let's walk through the setup process together.");
+					console.log("The app will ask you for a username and password. This is only done once.");
+					console.log("Your information will not be stored, but it's needed temporarily to create a token.")
 				});
 				timeout(4000, () => {
 					// Ask if the user is ready to proceed

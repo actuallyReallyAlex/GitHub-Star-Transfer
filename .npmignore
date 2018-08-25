@@ -1,0 +1,10 @@
+.github
+.vscode
+assets
+docs - methods
+gifs
+.eslintrc.json
+.gitignore
+.jshintrc
+.prettierrc
+favicon.ico
