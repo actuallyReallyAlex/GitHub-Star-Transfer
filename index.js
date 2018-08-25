@@ -12,7 +12,7 @@ const Configstore = require('configstore');
 
 // Custom Dependencies
 const { getStarredRepos } = require('./lib/requests');
-const { printTitle, timeout, separator, createMenu } = require('./lib/helpers');
+const { printTitle, timeout, separator, setupStartQuestions, mainMenuQuestions, createMenu } = require('./lib/helpers');
 
 // Create a Configuration File with Configstore
 const conf = new Configstore('github-star-transfer');
@@ -41,29 +41,12 @@ const run = () => {
 				});
 				timeout(4000, () => {
 					// Ask if the user is ready to proceed
-					createMenu(
-						{
-							type: 'confirm',
-							name: 'setupStart',
-							message: 'Are you ready to proceed?'
-						},
-						'setup'
-					);
+					createMenu(setupStartQuestions, 'setup');
 				});
 			} else {
 				// Create Main Menu
-				createMenu({
-					type: 'list',
-					name: 'mainMenu',
-					message: 'What would you like to do?',
-					choices: ['Copy Stars', separator(), 'Settings', 'Exit']
-				});
+				createMenu(mainMenuQuestions);
 			}
-
-
-
-
-		
 		} else {
 			// User is not connected to WiFi
 			// Launch app with limited capabilities
